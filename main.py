@@ -5,7 +5,8 @@ from chains import Chain
 from portfolio import Portfolio
 from utils import clean_text
 
-
+import os
+os.environ["CHROMA_USE_PYSQLITE3"] = "1"
 def create_streamlit_app(llm, portfolio, clean_text):
     st.markdown("""
     <style>
