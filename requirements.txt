@@ -8,5 +8,4 @@ streamlit==1.44.1
 pandas==2.2.3 
 python-dotenv==1.1.0
 beautifulsoup4==4.13.4
-pysqlite3-binary
-sqlite3
+sqlite3==3.35.4
