@@ -1,10 +1,11 @@
-langchain
-langchain-community
-langchain-groq
-unstructured
-selenium
-chromadb
-streamlit
-pandas 
-python-dotenv
-beautifulsoup4
+langchain==0.3.24
+ langchain-community==0.3.22
+ langchain-groq==0.3.2
+ unstructured==0.17.2
+ selenium==4.31.0 
+ chromadb==1.0.6
+ streamlit==1.44.1
+ pandas==2.2.3 
+ python-dotenv==1.1.0
+ beautifulsoup4==4.13.4
+ pysqlite3-binary
