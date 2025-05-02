@@ -1,3 +1,6 @@
+import os
+os.environ["CHROMA_USE_PYSQLITE3"] = "1"
+
 import pandas as pd
 import chromadb
 import uuid
