@@ -4,7 +4,10 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
+import os
+from groq import Groq
 
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 from chains import Chain
