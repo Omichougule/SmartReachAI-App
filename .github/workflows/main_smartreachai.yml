@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - smartreachai
+name: Build and deploy Python app to Azure Web App - smartreachAI
 
 on:
   push:
@@ -68,14 +68,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_4C0C8E88022B4ED983C2842C365DA6A9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_26496B9B7D3543358392E57895E6BA68 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F09E689CD445496597F230A780E8C606 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_068E9DFFBB62450DBCD6B833BBB9D93C }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_226E5355FA844F908AD47868F02C0A8E }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_CEC22A1EA5BF4AFAADEF3994DEFEC01F }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'smartreachai'
+          app-name: 'smartreachAI'
           slot-name: 'Production'
           
