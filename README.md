@@ -87,5 +87,5 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 
-This project is currently unlicensed. Feel free to add a license if you use or adapt the code.
+This project is currently unlicensed. 
 ```
